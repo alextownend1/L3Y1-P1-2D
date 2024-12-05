@@ -157,7 +157,7 @@ MonoBehaviour:
   maxHealth: 3
   currentHealth: 0
   shootingPoint: {fileID: 3900071628626283036}
-  bullet: {fileID: 8876938696492120661, guid: 34b52cfaf3638b341b078d780221087b, type: 3}
+  bullet: {fileID: 7501768154872604787, guid: 0c1c7b54680038e41ad291c7362ac538, type: 3}
   moveSpeed: 6
   jumpForce: 14
   rb: {fileID: 8535236543060781966}
@@ -175,8 +175,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6331963425205130734}
   - component: {fileID: 4129357771973100902}
+  - component: {fileID: 3472108194455573245}
   m_Layer: 0
-  m_Name: Main Character Sheet Map_0
+  m_Name: Idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,3 +250,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3472108194455573245
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6102913239013253324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.01877129, y: -0.040506423}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.25, y: 0.39}
+    newSize: {x: 0.25, y: 0.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21245742, y: 0.19043219}
+  m_EdgeRadius: 0
